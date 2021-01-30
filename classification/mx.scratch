@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>C:\Users\rafiq\OneDrive\Desktop\STM32\classification\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\rafiq\STM32Cube\Repository\STM32Cube_FW_F4_V1.25.2\</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>classification.ioc</IocFile>
+    <Project>
+      <ProjectName>classification</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure />
+      <filestoremove>
+        <file>
+          <name>X-CUBE-AI\App\aiPbIO.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\aiPbMgr.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\aiValidation.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_common.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_decode.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_encode.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\stm32msg.pb.h</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\aiPbIO.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\aiPbMgr.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\aiValidation.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_common.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_decode.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\pb_encode.c</name>
+        </file>
+        <file>
+          <name>X-CUBE-AI\App\stm32msg.pb.c</name>
+        </file>
+      </filestoremove>
+      <sourceEntriesToRemove>
+        <sourceEntry />
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>classification</name>
+          <mainSourceRepo>Core</mainSourceRepo>
+          <sourceStructure>Advanced</sourceStructure>
+          <device>STM32F446RETx</device>
+          <cpucore>Arm Cortex-M4</cpucore>
+          <fpu>SP</fpu>
+          <memories>
+            <memory access="xrw" name="RAM" size="128" start="0x20000000" />
+            <memory access="rx" name="FLASH" size="512" start="0x8000000" />
+          </memories>
+          <startup>C:\Users\rafiq\STM32Cube\Repository\STM32Cube_FW_F4_V1.25.2\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f446xx.s</startup>
+          <LinkSettings>
+            <icfloc>0</icfloc>
+            <LinkAdditionalLibs />
+          </LinkSettings>
+          <heapSize>0x800</heapSize>
+          <stackSize>0x800</stackSize>
+          <board>NUCLEO-F446RE</board>
+          <debugprobe>swd</debugprobe>
+          <optimization />
+          <Aincludes>
+            <include />
+          </Aincludes>
+          <Adefines />
+          <Cdefines>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32F446xx</define>
+          </Cdefines>
+          <Ldefines />
+          <Cincludes>
+            <include>X-CUBE-AI\App</include>
+            <include>X-CUBE-AI</include>
+            <include>X-CUBE-AI\Target</include>
+            <include>Core\Inc</include>
+            <include>../X-CUBE-AI/App</include>
+            <include>../Middlewares/ST/AI/Inc</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</include>
+            <include>Drivers\CMSIS\Device\ST\STM32F4xx\Include</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines />
+            <Cdefines>
+              <define>USE_FULL_LL_DRIVER</define>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+              <define>USE_FULL_ASSERT=1U</define>
+            </Cdefines>
+            <Ldefines />
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include />
+            </Aincludes>
+            <Cincludes />
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Core</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>X-CUBE-AI</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups>
+        <group>
+          <name>Lib</name>
+          <file>
+            <name>Middlewares/ST/AI/Lib/NetworkRuntime520_CM4_GCC.a</name>
+          </file>
+        </group>
+      </Groups>
+    </Project>
+  </Workspace>
+</ScratchFile>
+

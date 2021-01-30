@@ -1,0 +1,9 @@
+sample_classification.c:542:9:sample_classification_configure_activations	24	static
+sample_classification.c:581:9:sample_classification_configure_weights	24	static
+sample_classification.c:632:9:ai_sample_classification_get_info	136	static
+sample_classification.c:679:10:ai_sample_classification_get_error	16	static
+sample_classification.c:685:10:ai_sample_classification_create	24	static
+sample_classification.c:695:11:ai_sample_classification_destroy	16	static
+sample_classification.c:701:9:ai_sample_classification_init	24	static
+sample_classification.c:718:8:ai_sample_classification_run	24	static
+sample_classification.c:725:8:ai_sample_classification_forward	16	static

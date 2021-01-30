@@ -1,0 +1,9 @@
+aiPbIO.c:54:13:write_packet	8	static
+aiPbIO.c:58:6:pb_io_flush_ostream	8	static
+aiPbIO.c:65:13:write_callback	32	static
+aiPbIO.c:97:13:read_packet	16	static
+aiPbIO.c:104:6:pb_io_flush_istream	4	static
+aiPbIO.c:110:13:read_callback	40	static
+aiPbIO.c:143:14:pb_io_ostream	48	static
+aiPbIO.c:149:14:pb_io_istream	32	static
+aiPbIO.c:155:5:pb_io_stream_init	8	static
